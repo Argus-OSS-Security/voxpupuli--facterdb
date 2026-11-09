@@ -1,11 +1,12 @@
 name: Test
 
-on:
-  pull_request: {}
-  push:
-    branches:
-      - master
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request: {}
+#   push:
+#     branches:
+#       - master
+# 
 permissions:
   contents: read # minimal required permissions to clone repo
 

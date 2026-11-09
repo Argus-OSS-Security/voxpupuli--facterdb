@@ -1,11 +1,12 @@
 ---
 name: Gem Release
 
-on:
-  push:
-    tags:
-      - '*'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     tags:
+#       - '*'
+# 
 permissions: {}
 
 jobs:
